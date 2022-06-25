@@ -1,4 +1,4 @@
-namespace AiXi.Model
+namespace AiXiu.Model
 {
     using System;
     using System.Collections.Generic;

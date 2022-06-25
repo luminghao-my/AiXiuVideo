@@ -1,4 +1,4 @@
-﻿using AiXi.Model;
+﻿using AiXiu.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;

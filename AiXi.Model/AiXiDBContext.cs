@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity;
 using System.Linq;
 
-namespace AiXi.Model
+namespace AiXiu.Model
 {
     public partial class AiXiDBContext : DbContext
     {

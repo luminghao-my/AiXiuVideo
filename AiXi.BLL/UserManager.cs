@@ -1,7 +1,7 @@
 ﻿using AiXi.DAL;
 using AiXi.IBLL;
 using AiXi.IDAL;
-using AiXi.Model;
+using AiXiu.Model;
 using AiXiu.Common;
 using AiXiu.Model;
 using System;
@@ -107,6 +107,20 @@ namespace AiXi.BLL
             //返回结果
             if (tBUsers != null) { return OperResult<TBUsers>.Succeed(tBUsers); }
             return OperResult<TBUsers>.Failed("用户信息不存在");
+        }
+
+        public OperResult<TBUsers> EditWithoutAvatar(TBUsers user)
+        {
+            IUserService userInfoIDAL = new UserService();
+            try
+            {
+                TBUsers profileEntity = userInfoIDAL.EditWithoutAvatar(user);
+                return OperResult<TBUsers>.Succeed(profileEntity);
+            }
+            catch (Exception ex)
+            {
+                return OperResult<TBUsers>.Failed(ex.Message);
+            }
         }
     }
 }

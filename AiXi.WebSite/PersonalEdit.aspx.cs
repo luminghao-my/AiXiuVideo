@@ -7,7 +7,6 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using AiXiu.Model;
-using AiXi.Model;
 using AiXi.IBLL;
 using AiXi.BLL;
 using AiXiu.Common;
@@ -175,7 +174,7 @@ namespace AiXi.WebSite
             }
             profile.Hobby = string.Join(" ",hobbyList);
             //更新资料
-            IUserInfoIBLL userInfoBLL = new UserInfoBLL();
+            IUserManager userInfoBLL =new UserManager();
             OperResult<TBUsers> operResult = userInfoBLL.EditWithoutAvatar(profile);
             if (operResult.StatusCode == StatusCode.Succeed)
             {

@@ -1,8 +1,7 @@
 ﻿using AiXi.BLL;
 using AiXi.IBLL;
-using AiXi.Model;
-using AiXiu.Common;
 using AiXiu.Model;
+using AiXiu.Common;
 using Pwd;
 using System;
 using System.Collections.Generic;

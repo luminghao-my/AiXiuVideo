@@ -1,6 +1,6 @@
 ﻿using AiXi.BLL;
 using AiXi.IBLL;
-using AiXi.Model;
+using AiXiu.Model;
 using AiXi.WebSite.Identification;
 using AiXiu.Common;
 using AiXiu.Model;

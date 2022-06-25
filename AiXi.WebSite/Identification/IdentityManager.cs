@@ -1,5 +1,4 @@
-﻿using AiXi.Model;
-using AiXiu.Model;
+﻿using AiXiu.Model;
 using Newtonsoft.Json;
 using System;
 using System.Web;

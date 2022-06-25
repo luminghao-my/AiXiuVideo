@@ -1,6 +1,5 @@
 ﻿using AiXi.BLL;
 using AiXi.IBLL;
-using AiXi.Model;
 using AiXiu.Common;
 using AiXiu.Model;
 using System;

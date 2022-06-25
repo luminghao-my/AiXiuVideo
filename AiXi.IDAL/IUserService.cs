@@ -1,4 +1,4 @@
-﻿using AiXi.Model;
+﻿using AiXiu.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +9,16 @@ namespace AiXi.IDAL
 {
     public interface IUserService
     {
+
+
+        /// <summary>
+        /// 更新用户除头像外的User信息
+        /// </summary>
+        /// <param name="users">TBUsers用户对象</param>
+        /// <returns></returns>
+        TBUsers EditWithoutAvatar(TBUsers users);
+
+
         /// <summary>
         /// 是否有重复的用户名
         /// </summary>
